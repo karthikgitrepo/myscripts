@@ -1,0 +1,8 @@
+name: info_integration_keys
+runner_type: python-script
+enabled: true
+entry_point: "scripts/python/info_integration_keys.py"
+parameters:
+    inputObject:
+        type: object
+        required: true
